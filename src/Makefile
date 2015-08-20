@@ -19,5 +19,6 @@ LDFLAGS=-lboost_system -lglog -ljson -lboost_filesystem
 $(PROG): $(SOURCES)
 	$(CC) -o $(PROG) $(SOURCES) $(CFLAGS) $(LDFLAGS) -I $(ILP_LIB) -I $(IZENE_LIB) -I $(JSON_INC) -L $(JSON_LIB)
 
+
 clean:
 	rm -rf $(PROG) *.exe *.dSYM *.obj *.exp .*o *.lib
