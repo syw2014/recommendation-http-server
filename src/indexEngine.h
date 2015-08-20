@@ -18,8 +18,10 @@
 #include <boost/lexical_cast.hpp>
 #include <boost/algorithm/string.hpp>
 #include <boost/functional/hash.hpp>
-#include <util/hashFunction.h>
+#include <boost/date_time/posix_time/posix_time.hpp>
 
+#include <util/hashFunction.h>
+#include <glog/logging.h>
 #include "knlp/horse_tokenize.h"
 #include "normalize.h"
 

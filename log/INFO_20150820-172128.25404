@@ -1,0 +1,495 @@
+Log file created at: 2015/08/20 17:21:28
+Running on machine: lscm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0820 17:21:28.652621 25404 q_recommend.cc:209] Start program...
+I0820 17:21:28.652832 25404 q_recommend.cc:172] Creat thread:0
+I0820 17:21:28.652928 25404 q_recommend.cc:172] Creat thread:1
+I0820 17:21:28.652948 25404 q_recommend.cc:172] Creat thread:2
+I0820 17:21:28.652964 25404 q_recommend.cc:172] Creat thread:3
+I0820 17:21:28.652981 25404 q_recommend.cc:172] Creat thread:4
+I0820 17:21:28.652995 25404 q_recommend.cc:172] Creat thread:5
+I0820 17:21:28.653008 25404 q_recommend.cc:172] Creat thread:6
+I0820 17:21:28.653023 25404 q_recommend.cc:172] Creat thread:7
+I0820 17:21:28.653035 25404 q_recommend.cc:172] Creat thread:8
+I0820 17:21:28.653053 25404 q_recommend.cc:172] Creat thread:9
+I0820 17:21:28.653069 25404 q_recommend.cc:172] Creat thread:10
+I0820 17:21:28.653082 25404 q_recommend.cc:172] Creat thread:11
+I0820 17:21:28.653105 25404 q_recommend.cc:172] Creat thread:12
+I0820 17:21:28.653122 25404 q_recommend.cc:172] Creat thread:13
+I0820 17:21:28.653136 25404 q_recommend.cc:172] Creat thread:14
+I0820 17:21:28.653153 25404 q_recommend.cc:172] Creat thread:15
+I0820 17:21:28.653168 25404 q_recommend.cc:172] Creat thread:16
+I0820 17:21:28.653184 25404 q_recommend.cc:172] Creat thread:17
+I0820 17:21:28.653203 25404 q_recommend.cc:172] Creat thread:18
+I0820 17:21:28.653221 25404 q_recommend.cc:172] Creat thread:19
+I0820 17:21:28.653235 25404 q_recommend.cc:172] Creat thread:20
+I0820 17:21:28.653249 25404 q_recommend.cc:172] Creat thread:21
+I0820 17:21:36.538182 25884 q_recommend.cc:121] Request URI:/
+I0820 17:21:36.666214 25884 q_recommend.cc:151] Request time:281us	total time:128239us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 17:22:37.408431 25884 q_recommend.cc:121] Request URI:/
+I0820 17:22:37.553872 25884 q_recommend.cc:151] Request time:183us	total time:145520us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 17:22:47.211554 25884 q_recommend.cc:121] Request URI:/
+I0820 17:22:47.361132 25884 q_recommend.cc:151] Request time:2153us	total time:151595us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 17:22:48.413465 25884 q_recommend.cc:121] Request URI:/
+I0820 17:22:48.567931 25884 q_recommend.cc:151] Request time:248us	total time:154598us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 17:22:49.352105 25884 q_recommend.cc:121] Request URI:/
+I0820 17:22:49.499616 25884 q_recommend.cc:151] Request time:491us	total time:147837us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 17:22:50.542649 25884 q_recommend.cc:121] Request URI:/
+I0820 17:22:50.676571 25884 q_recommend.cc:151] Request time:276us	total time:134108us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 17:23:22.021819 25884 q_recommend.cc:121] Request URI:/
+I0820 17:23:22.116971 25884 q_recommend.cc:151] Request time:360us	total time:95429us	Query:电脑	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "电脑办公", "电脑DIY" ],
+      [ "电脑办公", "笔记本" ],
+      [ "家居生活", "家具", "桌椅类" ],
+      [ "电脑办公", "办公设备", "一体机" ],
+      [ "电脑办公", "平板电脑" ],
+      [ "电脑办公", "台式机" ],
+      [ "手机数码", "数码影音", "mini音响" ],
+      [ "手机数码", "数码影音", "耳机/耳麦" ],
+      [ "电脑办公", "电脑外设", "显示器" ],
+      [ "电脑办公", "电脑DIY", "散热设备" ]
+   ],
+   "recommedndation" : [
+      "苹果笔记本电脑",
+      "摄像头 电脑",
+      "音箱 电脑",
+      "华硕笔记本电脑",
+      "音响 电脑",
+      "三星笔记本电脑",
+      "低音炮音箱 电脑",
+      "电脑背包"
+   ]
+}
+I0820 17:23:49.493336 25884 q_recommend.cc:121] Request URI:/
+I0820 17:23:49.495142 25884 q_recommend.cc:151] Request time:533us	total time:2214us	Query:洗一起	Recommend:{
+   "NoResult_Recommend" : "我只是难过不能陪你一起老",
+   "category" : null,
+   "recommedndation" : [
+      "宝宝起",
+      "起暖器",
+      "起酒器",
+      "起车架",
+      "起梵",
+      "十字起",
+      "ebase&princess专柜正品",
+      "峰起",
+      "起托盘"
+   ]
+}
+I0820 17:24:01.878962 25884 q_recommend.cc:121] Request URI:/
+I0820 17:24:02.058410 25884 q_recommend.cc:151] Request time:1204us	total time:180213us	Query:一起	Recommend:{
+   "NoResult_Recommend" : "起",
+   "category" : null,
+   "recommedndation" : [
+      "一叶子",
+      "五一",
+      "六一",
+      "一朵",
+      "一元",
+      "一片式无痕",
+      "一u盘",
+      "一分"
+   ]
+}
+I0820 17:24:46.900648 25884 q_recommend.cc:121] Request URI:/
+I0820 17:24:46.962012 25884 q_recommend.cc:151] Request time:415us	total time:61492us	Query:冰箱	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "家用电器", "大家电", "冰箱" ],
+      [ "汽车用品", "车载电器" ],
+      [ "家居生活", "居家日用", "防尘用品" ],
+      [ "家用电器", "大家电", "家电配件" ],
+      [ "家居生活", "家饰", "家居贴饰" ],
+      [ "家居生活", "居家日用", "净化除味/防虫" ],
+      [ "家居生活", "厨房用具", "厨房用具" ],
+      [ "家居生活", "居家日用", "生活杂货" ],
+      [ "家居生活", "厨房用具", "保鲜微波" ],
+      [ "家居生活", "家具", "柜类" ]
+   ],
+   "recommedndation" : [
+      "冰箱 大家电",
+      "冰箱 三门",
+      "西门子冰箱",
+      "冰箱罩",
+      "双开门冰箱",
+      "新飞冰箱",
+      "三星冰箱",
+      "冰箱挂架"
+   ]
+}
+I0820 17:24:55.675571 25884 q_recommend.cc:121] Request URI:/
+I0820 17:24:55.677616 25884 q_recommend.cc:151] Request time:1187us	total time:2293us	Query:你大爷	Recommend:{
+   "NoResult_Recommend" : "座机 欧式 电话机(有绳 无绳/网络)-生活电器 顶爷",
+   "category" : null,
+   "recommedndation" : [
+      "你大衣",
+      "文财神爷",
+      "月老爷",
+      "顾爷",
+      "缺爷",
+      "棒爷",
+      "侠岚牒",
+      "普爷",
+      "京爷"
+   ]
+}
+I0820 17:25:34.820653 25884 q_recommend.cc:121] Request URI:/
+I0820 17:25:34.821765 25884 q_recommend.cc:151] Request time:107us	total time:1154us	Query:MLGB	Recommend:{
+   "NoResult_Recommend" : "mlgb",
+   "category" : [
+      [ "服装服饰", "男装", "T恤" ],
+      [ "手机数码", "手机数码配件", "手机壳/保护壳" ],
+      [ "鞋包配饰", "配饰饰品", "帽子" ],
+      [ "服装服饰", "男装", "卫衣" ],
+      [ "服装服饰", "男装", "休闲裤" ],
+      [ "服装服饰", "男装", "夹克" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "珠宝手表", "时尚手表" ],
+      [ "服装服饰", "男装", "衬衫" ],
+      [ "鞋包配饰", "女鞋", "高跟鞋" ]
+   ],
+   "recommedndation" : [
+      "mlgb短袖",
+      "mlgb手机壳",
+      "mlgb潮牌",
+      "mlgb卫衣",
+      "mlgb 手机壳",
+      "mlgb背心",
+      "mlgb棒球服",
+      "棒球帽 mlgb"
+   ]
+}
+I0820 17:26:14.099074 25884 q_recommend.cc:121] Request URI:/
+I0820 17:26:14.099661 25884 q_recommend.cc:151] Request time:1678us	total time:2019us	Query:FUCK	Recommend:{
+   "NoResult_Recommend" : "fuck",
+   "category" : [
+      [ "服装服饰", "男装", "T恤" ],
+      [ "鞋包配饰", "配饰饰品", "帽子" ],
+      [ "服装服饰", "内衣", "袜子/丝袜" ]
+   ],
+   "recommedndation" : [ "fuck t恤", "fuck帽子", "fuck t恤男", "fuck外套 男" ]
+}
+I0820 17:28:47.069130 25884 q_recommend.cc:121] Request URI:/
+I0820 17:28:47.087458 25884 q_recommend.cc:151] Request time:851us	total time:18725us	Query:你二大爷	Recommend:{
+   "NoResult_Recommend" : "二大",
+   "category" : null,
+   "recommedndation" : [
+      "keke",
+      "将来的你",
+      "苹果迷你",
+      "呼你",
+      "电脑迷你音响",
+      "失去的你",
+      "爱尚你",
+      "你春装"
+   ]
+}
+I0820 17:33:48.664132 25884 q_recommend.cc:121] Request URI:/
+I0820 17:33:48.664662 25884 q_recommend.cc:151] Request time:454us	total time:791us	Query:我爱你	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "玩乐爱好", "鲜花礼品" ],
+      [ "家居生活", "家饰", "装饰摆件" ],
+      [ "图书音像", "少儿" ],
+      [ "家居生活", "家饰", "家居贴饰" ],
+      [ "图书音像", "文艺", "文学" ],
+      [ "电脑办公", "文具用品", "学生文具" ],
+      [ "图书音像", "经管励志", "励志与自我实现" ]
+   ],
+   "recommedndation" : [
+      "我爱你 礼物",
+      "我爱你礼物",
+      "梦洁我爱你",
+      "墙贴卧室我爱你",
+      "我爱你项链女",
+      "附注:我爱你",
+      "我爱你店 包"
+   ]
+}
+I0820 17:34:11.107271 25884 q_recommend.cc:121] Request URI:/
+I0820 17:34:11.107621 25884 q_recommend.cc:151] Request time:304us	total time:535us	Query:永远在一起	Recommend:{
+   "category" : null
+}
+I0820 17:34:19.385740 25884 q_recommend.cc:121] Request URI:/
+I0820 17:34:19.386574 25884 q_recommend.cc:151] Request time:347us	total time:1080us	Query:亲爱的	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "家居生活", "厨房用具", "餐饮用具" ],
+      [ "图书音像", "文艺", "文学" ],
+      [ "服装服饰", "女装", "风衣" ],
+      [ "图书音像", "生活" ],
+      [ "图书音像", "生活", "旅游" ]
+   ],
+   "recommedndation" : [
+      "亲爱的笨笨猪",
+      "亲爱的世界",
+      "亲爱的旗舰店",
+      "潘云贵 亲爱的",
+      "亲爱的阿基米德",
+      "亲爱的汉修",
+      "亲爱的灯光",
+      "亲爱的生活"
+   ]
+}
+I0820 17:35:19.268591 25884 q_recommend.cc:121] Request URI:/
+I0820 17:35:19.268724 25884 q_recommend.cc:151] Request time:111us	total time:188us	Query:岳晓峰	Recommend:{
+   "category" : null
+}
+I0820 17:35:47.192329 25884 q_recommend.cc:121] Request URI:/
+I0820 17:35:47.196255 25884 q_recommend.cc:151] Request time:156us	total time:3968us	Query:桑永嘉	Recommend:{
+   "NoResult_Recommend" : "永嘉",
+   "category" : null,
+   "recommedndation" : [
+      "献王",
+      "桑语",
+      "献王酒",
+      "桑罗",
+      "丝巾 桑 蚕丝",
+      "格林桑",
+      "湖桑",
+      "牧桑"
+   ]
+}
+I0820 17:36:11.249866 25884 q_recommend.cc:121] Request URI:/
+I0820 17:36:11.269336 25884 q_recommend.cc:151] Request time:1804us	total time:21093us	Query:岳孝峰	Recommend:{
+   "NoResult_Recommend" : "朝鲜打糕",
+   "category" : null,
+   "recommedndation" : [
+      "孝素",
+      "龙布峰针",
+      "得峰",
+      "峰源",
+      "孝素梅",
+      "孝素 酵素",
+      "致峰",
+      "小一峰"
+   ]
+}
+I0820 17:36:55.244791 25884 q_recommend.cc:121] Request URI:/
+I0820 17:36:55.257716 25884 q_recommend.cc:151] Request time:292us	total time:13049us	Query:师艳伟	Recommend:{
+   "NoResult_Recommend" : "艳伟",
+   "category" : null,
+   "recommedndation" : [
+      "播2015",
+      "播连衣裙",
+      "broadcast/播",
+      "大物师",
+      "老药师",
+      "播 正品代购",
+      "播2015夏",
+      "播剪标"
+   ]
+}
+I0820 17:38:47.132452 25884 q_recommend.cc:121] Request URI:/
+I0820 17:38:47.397721 25884 q_recommend.cc:151] Request time:314us	total time:265489us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 17:38:54.749308 25884 q_recommend.cc:121] Request URI:/
+I0820 17:38:54.784034 25884 q_recommend.cc:151] Request time:508us	total time:34975us	Query:蛋糕	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美食特产", "零食特产", "饼干糕点" ],
+      [ "家居生活", "厨房用具", "厨房用具" ],
+      [ "美食特产", "粮油速食", "调味品" ],
+      [ "家居生活", "厨房用具", "餐饮用具" ],
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "家用电器", "厨卫电器" ],
+      [ "玩乐爱好", "鲜花礼品" ],
+      [ "玩乐爱好", "玩具", "模型玩具" ],
+      [ "美食特产", "粮油速食", "米面杂粮" ],
+      [ "家居生活", "家具", "柜类" ]
+   ],
+   "recommedndation" : [
+      "榴莲蛋糕",
+      "蛋糕连衣裙",
+      "棒棒糖蛋糕",
+      "芭比娃娃蛋糕",
+      "广州蛋糕",
+      "米老头蛋糕",
+      "哈根达斯蛋糕",
+      "蛋糕装饰"
+   ]
+}
+I0820 17:47:09.713176 25868 q_recommend.cc:121] Request URI:/
+I0820 17:47:09.785370 25868 q_recommend.cc:151] Request time:350us	total time:72137us	Query:http://localhost:18663/query=123	Recommend:{
+   "NoResult_Recommend" : "http:",
+   "category" : null,
+   "recommedndation" : [
+      "http",
+      ":运动休闲鞋",
+      "http://",
+      ":长袖连衣裙",
+      ":男鞋",
+      ":短袖衬衫",
+      "关键词:",
+      "羽绒服半成品:"
+   ]
+}

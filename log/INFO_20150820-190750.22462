@@ -1,0 +1,188 @@
+Log file created at: 2015/08/20 19:07:50
+Running on machine: lscm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0820 19:07:50.720535 22462 q_recommend.cc:209] Start program...
+I0820 19:07:50.720695 22462 q_recommend.cc:172] Creat thread:0
+I0820 19:07:50.720764 22462 q_recommend.cc:172] Creat thread:1
+I0820 19:07:50.720784 22462 q_recommend.cc:172] Creat thread:2
+I0820 19:07:50.720800 22462 q_recommend.cc:172] Creat thread:3
+I0820 19:07:50.720814 22462 q_recommend.cc:172] Creat thread:4
+I0820 19:07:50.720829 22462 q_recommend.cc:172] Creat thread:5
+I0820 19:07:50.720844 22462 q_recommend.cc:172] Creat thread:6
+I0820 19:07:50.720860 22462 q_recommend.cc:172] Creat thread:7
+I0820 19:07:50.720873 22462 q_recommend.cc:172] Creat thread:8
+I0820 19:07:50.720891 22462 q_recommend.cc:172] Creat thread:9
+I0820 19:07:50.720906 22462 q_recommend.cc:172] Creat thread:10
+I0820 19:07:50.720921 22462 q_recommend.cc:172] Creat thread:11
+I0820 19:07:50.720937 22462 q_recommend.cc:172] Creat thread:12
+I0820 19:07:50.720950 22462 q_recommend.cc:172] Creat thread:13
+I0820 19:07:50.720965 22462 q_recommend.cc:172] Creat thread:14
+I0820 19:07:50.720981 22462 q_recommend.cc:172] Creat thread:15
+I0820 19:07:50.721050 22462 q_recommend.cc:172] Creat thread:16
+I0820 19:07:50.721070 22462 q_recommend.cc:172] Creat thread:17
+I0820 19:07:50.721091 22462 q_recommend.cc:172] Creat thread:18
+I0820 19:07:50.721106 22462 q_recommend.cc:172] Creat thread:19
+I0820 19:07:50.721119 22462 q_recommend.cc:172] Creat thread:20
+I0820 19:07:50.721134 22462 q_recommend.cc:172] Creat thread:21
+I0820 19:12:08.254792 22920 q_recommend.cc:121] Request URI:/
+I0820 19:12:08.426265 22920 recommendEngine.cpp:307] GetCandicate time cost:30045us	Find NoResult time cost:33997	Find Related time cost:106976
+I0820 19:12:08.449273 22920 q_recommend.cc:151] Request time:329us	total time:194136us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 19:53:29.152587 22921 q_recommend.cc:121] Request URI:/
+I0820 19:53:29.405015 22921 recommendEngine.cpp:307] GetCandicate time cost:41468us	Find NoResult time cost:39938	Find Related time cost:170766
+I0820 19:53:29.409440 22921 q_recommend.cc:151] Request time:327us	total time:257118us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 19:53:51.517860 22921 q_recommend.cc:121] Request URI:/
+I0820 19:53:51.769433 22921 recommendEngine.cpp:307] GetCandicate time cost:39760us	Find NoResult time cost:47176	Find Related time cost:164254
+I0820 19:53:51.788264 22921 q_recommend.cc:151] Request time:367us	total time:270677us	Query:面膜	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "美容美妆", "美容护肤", "面膜" ],
+      [ "美容美妆", "美容护肤", "男士护理" ],
+      [ "美容美妆", "美容护肤", "护理套装" ],
+      [ "美容美妆", "彩妆", "化妆/美容工具" ],
+      [ "美容美妆", "美容护肤", "乳液/面霜" ],
+      [ "美容美妆", "美容护肤", "T区护理" ],
+      [ "美容美妆", "美容护肤", "眼部护理" ],
+      [ "美容美妆", "美容护肤", "身体护理" ],
+      [ "美容美妆", "美容护肤", "洁面" ],
+      [ "图书音像", "生活", "娱乐时尚" ]
+   ],
+   "recommedndation" : [
+      "动物面膜",
+      "可莱丝面膜",
+      "压缩面膜",
+      "蓝莓面膜",
+      "男士面膜",
+      "森田面膜",
+      "清洁面膜",
+      "zuzu面膜"
+   ]
+}
+I0820 19:56:48.245726 22921 q_recommend.cc:121] Request URI:/
+I0820 19:56:48.866068 22921 recommendEngine.cpp:307] GetCandicate time cost:136528us	Find NoResult time cost:139762	Find Related time cost:341781
+I0820 19:56:48.896733 22921 q_recommend.cc:151] Request time:437us	total time:651274us	Query:手机	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "手机数码", "手机" ],
+      [ "电脑办公", "平板电脑" ],
+      [ "手机数码", "手机数码配件" ],
+      [ "手机数码", "手机数码配件", "手机壳/保护壳" ],
+      [ "运动户外", "户外装备", "户外背包" ],
+      [ "汽车用品", "内饰", "整理收纳" ],
+      [ "手机数码", "手机数码配件", "电池/充电器" ],
+      [ "手机数码", "数码影音", "耳机/耳麦" ],
+      [ "手机数码", "手机数码配件", "贴膜" ],
+      [ "运动户外", "户外装备" ]
+   ],
+   "recommedndation" : [
+      "手机 /苹果",
+      "乐视手机",
+      "手机 vivo",
+      "手机 oppo",
+      "vivo手机",
+      "小米4手机",
+      "步步高vivo手机",
+      "手机包"
+   ]
+}
+I0820 19:57:15.828869 22921 q_recommend.cc:121] Request URI:/
+I0820 19:57:18.645699 22921 recommendEngine.cpp:307] GetCandicate time cost:374035us	Find NoResult time cost:446017	Find Related time cost:1978415
+I0820 19:57:18.781075 22921 q_recommend.cc:151] Request time:340us	total time:2952460us	Query:连衣裙	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 19:57:32.677093 22921 q_recommend.cc:121] Request URI:/
+I0820 19:57:32.709537 22921 recommendEngine.cpp:307] GetCandicate time cost:4234us	Find NoResult time cost:11270	Find Related time cost:16808
+I0820 19:57:32.719014 22921 q_recommend.cc:151] Request time:200us	total time:41900us	Query:笔记本电脑	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "电脑办公", "笔记本" ],
+      [ "电脑办公", "电脑DIY", "装机配件" ],
+      [ "电脑办公", "电脑DIY", "散热设备" ],
+      [ "电脑办公", "电脑DIY" ],
+      [ "家居生活", "家具", "桌椅类" ],
+      [ "电脑办公", "电脑外设", "电脑包" ],
+      [ "电脑办公", "办公设备", "一体机" ],
+      [ "手机数码", "数码影音", "mini音响" ],
+      [ "电脑办公", "平板电脑" ],
+      [ "手机数码", "数码影音", "耳机/耳麦" ]
+   ],
+   "recommedndation" : [
+      "联想thinkpad笔记本电脑",
+      "电脑 笔记本 笔记本",
+      "笔记本电脑 /苹果",
+      "dell笔记本电脑",
+      "笔记本电脑二手",
+      "笔记本电脑音响",
+      "笔记本电脑i7",
+      "笔记本电脑i5"
+   ]
+}

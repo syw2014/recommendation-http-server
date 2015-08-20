@@ -281,11 +281,32 @@ void recommendEngine::jsonResults(const std::string& userQuery,std::string& res)
     QueryIdataMap queryIdata;
     QueryCateMap query2Cate;
     String2IntMap termsIdMap;
-
+	
+	//caculate cost time
+	boost::posix_time::ptime time_start,time_end;
+	boost::posix_time::millisec_posix_time_system_config::time_duration_type time_elapse;
+	
+	time_start = boost::posix_time::microsec_clock::universal_time();
 	getCandicate(userQuery,terms2qIDs,queryIdata,query2Cate,termsIdMap);
 
+	time_end = boost::posix_time::microsec_clock::universal_time();
+	time_elapse = time_end - time_start;
+	int cost_time1 = time_elapse.ticks();
+
+	time_start = boost::posix_time::microsec_clock::universal_time();
 	recommendNoResults(terms2qIDs,queryIdata,query2Cate,jsonResult,termsIdMap,userQuery);
+	time_end = boost::posix_time::microsec_clock::universal_time();
+	time_elapse = time_end - time_start;
+	int cost_time2 = time_elapse.ticks();
+	
+	time_start = boost::posix_time::microsec_clock::universal_time();
 	recommend(terms2qIDs,queryIdata,query2Cate,jsonResult,termsIdMap,userQuery);
+	time_end = boost::posix_time::microsec_clock::universal_time();
+	time_elapse = time_end - time_start;
+	int cost_time3 = time_elapse.ticks();
+	LOG(INFO) << "GetCandicate time cost:" << cost_time1 << "us"
+			  << "\tFind NoResult time cost:" << cost_time2 
+			  << "\tFind Related time cost:" << cost_time3;
 
     Json::Value catJson;
     Json::Value category;

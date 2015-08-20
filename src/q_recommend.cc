@@ -136,20 +136,20 @@ static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
 		time_end = boost::posix_time::microsec_clock::universal_time();
 
 		time_elapse = time_end - time_start;
-		int request_time = time_elapse.total_seconds();
+		int request_time = time_elapse.ticks();
 
         if(succ && rstr.size() != 0) {
         gRecomm.jsonResults(rstr,json_result);
         }
 		time_end = boost::posix_time::microsec_clock::universal_time();
 		time_elapse = time_end - time_start;
-		int total_time = time_elapse.total_seconds();
+		int total_time = time_elapse.ticks();
 
 		if(rstr.size() ==0)
 			json_result = "No query input!";
 		else
-			LOG(INFO) <<"Request time:" << request_time << "\ttotal time:" 
-				<< total_time <<"\tQuery:" << rstr 
+			LOG(INFO) <<"Request time:" << request_time << "us\ttotal time:" 
+				<< total_time <<"us\tQuery:" << rstr 
 				<<"\tRecommend:" << json_result;
 
         //mg_printf_data(conn, "Hello! Requested URI is [%s] ", content.c_str());
