@@ -1,0 +1,286 @@
+Log file created at: 2015/08/20 15:02:19
+Running on machine: lscm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0820 15:02:19.604965 19097 q_recommend.cc:190] Start program...
+I0820 15:02:19.605113 19097 q_recommend.cc:153] Creat thread:0
+I0820 15:02:19.605176 19097 q_recommend.cc:153] Creat thread:1
+I0820 15:02:19.605195 19097 q_recommend.cc:153] Creat thread:2
+I0820 15:02:19.605211 19097 q_recommend.cc:153] Creat thread:3
+I0820 15:02:19.605223 19097 q_recommend.cc:153] Creat thread:4
+I0820 15:02:19.605238 19097 q_recommend.cc:153] Creat thread:5
+I0820 15:02:19.605252 19097 q_recommend.cc:153] Creat thread:6
+I0820 15:02:19.605264 19097 q_recommend.cc:153] Creat thread:7
+I0820 15:02:19.605278 19097 q_recommend.cc:153] Creat thread:8
+I0820 15:02:19.605296 19097 q_recommend.cc:153] Creat thread:9
+I0820 15:02:19.605310 19097 q_recommend.cc:153] Creat thread:10
+I0820 15:02:19.605350 19097 q_recommend.cc:153] Creat thread:11
+I0820 15:02:19.605367 19097 q_recommend.cc:153] Creat thread:12
+I0820 15:02:19.605391 19097 q_recommend.cc:153] Creat thread:13
+I0820 15:02:19.605404 19097 q_recommend.cc:153] Creat thread:14
+I0820 15:02:19.605420 19097 q_recommend.cc:153] Creat thread:15
+I0820 15:02:19.605437 19097 q_recommend.cc:153] Creat thread:16
+I0820 15:02:19.605453 19097 q_recommend.cc:153] Creat thread:17
+I0820 15:02:19.605468 19097 q_recommend.cc:153] Creat thread:18
+I0820 15:02:19.605481 19097 q_recommend.cc:153] Creat thread:19
+I0820 15:02:19.605494 19097 q_recommend.cc:153] Creat thread:20
+I0820 15:02:19.605509 19097 q_recommend.cc:153] Creat thread:21
+I0820 15:04:55.612193 19567 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}
+I0820 15:05:07.059701 19567 q_recommend.cc:114] Request URI:/
+I0820 15:05:09.635393 19567 q_recommend.cc:134] Query:连衣裙Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 15:05:09.754998 19567 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}
+I0820 15:05:15.635076 19567 q_recommend.cc:114] Request URI:/
+I0820 15:05:18.310425 19567 q_recommend.cc:134] Query:连衣裙Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 15:05:18.413699 19567 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}
+I0820 15:05:34.712718 19567 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}
+I0820 15:05:41.287873 19567 q_recommend.cc:114] Request URI:/
+I0820 15:05:44.042381 19567 q_recommend.cc:134] Query:连衣裙Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 15:05:44.104859 19567 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}
+I0820 15:06:32.763607 19567 q_recommend.cc:114] Request URI:/
+I0820 15:06:35.300135 19567 q_recommend.cc:134] Query:连衣裙Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 15:06:35.382436 19567 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}
+I0820 15:06:55.430853 19567 q_recommend.cc:114] Request URI:/
+I0820 15:06:58.029536 19567 q_recommend.cc:134] Query:连衣裙Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 15:06:58.115703 19567 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}
+I0820 15:12:53.987185 19579 q_recommend.cc:114] Request URI:/
+I0820 15:12:56.626291 19579 q_recommend.cc:134] Query:连衣裙Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 15:12:56.705651 19579 q_recommend.cc:134] Query:i love you!Recommend:{
+   "NoResult_Recommend" : "i love",
+   "category" : null,
+   "recommedndation" : [
+      "love",
+      "倍多",
+      "love live",
+      "i watch",
+      "double love",
+      "耳机i",
+      "i love choc"
+   ]
+}

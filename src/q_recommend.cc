@@ -1,3 +1,10 @@
+/*************************************************************************
+    @ File Name: q_recommend.cc
+    @ Method:
+    @ Author: Jerry Shi
+    @ Mail: jerryshi0110@gmail.com 
+    @ Created Time: 2015年08月20日 星期四 14时43分53秒
+ ************************************************************************/
 #include <iostream>
 #include <string>
 #include <vector>
@@ -6,7 +13,10 @@
 #include <boost/filesystem.hpp>
 #include <boost/format.hpp>
 #include <boost/algorithm/string.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
 #include <signal.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <glog/logging.h>
 #include "mongoose.h"
 #include "recommendEngine.h"
@@ -27,17 +37,17 @@ void initGlog(const char* cProgram,const char* logDir)
 	char cInfoPath[100];
 	char cErrPath[100];
 	char cWarnPath[100];
-	char cFatalPaht[100];
+	char cFatalPath[100];
 
 	snprintf(cInfoPath,sizeof(cInfoPath),"%s%s",logDir,"/INFO_");
-	snprintf(cErrPath,sizeof(cErrpath),"%s%s",logDir,"/ERROR_");
+	snprintf(cErrPath,sizeof(cErrPath),"%s%s",logDir,"/ERROR_");
 	snprintf(cWarnPath,sizeof(cWarnPath),"%s%s",logDir,"/WARNING_");
 	snprintf(cFatalPath,sizeof(cFatalPath),"%s%s",logDir,"/FATAL_");
 
 	google::InitGoogleLogging(cProgram);
 
 	FLAGS_logbufsecs = 0; // no cache
-	FlAGS_stop_logging_if_full_disk = true; // disk if full
+	FLAGS_stop_logging_if_full_disk = true; // disk if full
 	FLAGS_alsologtostderr = false; //close to stderr
 
 	google::SetLogDestination(google::GLOG_INFO,cInfoPath);
@@ -90,37 +100,58 @@ void AddSigPipe()
 
 static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
 	
-    std::string rstr = "i love you!";
+    std::string rstr = "";
 	std::string json_result = "";
+	boost::posix_time::ptime time_start,time_end;
+	boost::posix_time::millisec_posix_time_system_config::time_duration_type time_elapse;
+
     switch (ev) {
     case MG_AUTH: return MG_TRUE;
     case MG_REQUEST:
     {
         bool succ = true;
         char buffer[65535];
+		time_start = boost::posix_time::microsec_clock::universal_time();
+
         try {
+				//get
                 if(mg_get_var(conn, "query", buffer, sizeof(buffer))>0) {
                     std::string pvalue(buffer);
 					std::cout << "test uri:" << pvalue << std::endl;
-					LOG(INFO) << "new request:" ;
+					LOG(INFO) << "Request URI:" << conn->uri;
                     boost::algorithm::trim(pvalue);
 					rstr = pvalue;
                     //sleep(60.0);
                 }
+				//post
 				std::string content(conn->content, conn->content_len);
+				
 				if(rstr.size() == 0)
 					rstr = content;
-				std::cout << "test data:" << rstr << std::endl;
             }
         catch(std::exception& ex) {
             std::cerr<<ex.what()<<std::endl;
             succ = false;
         }
-        if(succ) {
+		time_end = boost::posix_time::microsec_clock::universal_time();
+
+		time_elapse = time_end - time_start;
+		int request_time = time_elapse.total_seconds();
+
+        if(succ && rstr.size() != 0) {
         gRecomm.jsonResults(rstr,json_result);
         }
-		if(json_result.size() ==0)
+		time_end = boost::posix_time::microsec_clock::universal_time();
+		time_elapse = time_end - time_start;
+		int total_time = time_elapse.total_seconds();
+
+		if(rstr.size() ==0)
 			json_result = "No query input!";
+		else
+			LOG(INFO) <<"Request time:" << request_time << "\ttotal time:" 
+				<< total_time <<"\tQuery:" << rstr 
+				<<"\tRecommend:" << json_result;
+
         //mg_printf_data(conn, "Hello! Requested URI is [%s] ", content.c_str());
         mg_printf_data(conn, json_result.c_str());
         return MG_TRUE;
@@ -138,6 +169,7 @@ void start_http_server(int pool_size = 1) {
     std::vector<struct mg_server*> servers;
     for(int p=0;p<pool_size;p++) {
         std::string name = boost::lexical_cast<std::string>(p);
+		LOG(INFO) << "Creat thread:" << name;
         struct mg_server *server;
         server = mg_create_server((void*)name.c_str(), ev_handler);
         if(p==0) {
@@ -170,21 +202,18 @@ void start_http_server(int pool_size = 1) {
 int main(int argc, char** argv)
 {
     //AddSigPipe();
-   // RestClient::global_init();
+	std::string logDir = "../log";
+	initGlog(argv[0],logDir.c_str());
+
     int thread_num = 22;
-    std::cerr<<"thread-num: "<<thread_num<<std::endl;
+	LOG(INFO) << "Start program...";
+    //std::cerr<<"thread-num: "<<thread_num<<std::endl;
 	while(1)
 	{
 		start_http_server(thread_num);
 	}
-    //RestClient::global_clean();
     return EXIT_SUCCESS;
-    //RestClient::response r = RestClient::get("http://www.baidu.com");
-    //RestClient::response r = RestClient::post("http://10.30.97.188:8888/sf1r/status/get_distribute_status", "text/json", "{\"collection\":\"b5mq\"}");
-    //std::cout<<r.body<<std::endl;
 	
-
-	return 0;
 }
 
 

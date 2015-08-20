@@ -9,7 +9,7 @@ JSON_INC:=../include/3third-lib/jsoncpp/include/
 JSON_LIB:=../include/3third-lib/jsoncpp/lib/
 
 
-PROG = http-server
+PROG = q_recommend
 CFLAGS = -W -Wall -I../.. -pthread -g -O0 -DMONGOOSE_ENABLE_THREADS $(CFLAGS_EXTRA)
 SOURCES = $(PROG).cc mongoose.c indexEngine.cpp recommendEngine.cpp $(PUB_DIR)/ilplib/source/knlp/normalize.cpp 
 
