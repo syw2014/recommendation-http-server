@@ -1,0 +1,134 @@
+Log file created at: 2015/08/20 20:20:37
+Running on machine: lscm
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0820 20:20:37.940376 10630 q_recommend.cc:209] Start program...
+I0820 20:20:37.940536 10630 q_recommend.cc:172] Creat thread:0
+I0820 20:20:37.940655 10630 q_recommend.cc:172] Creat thread:1
+I0820 20:20:37.940675 10630 q_recommend.cc:172] Creat thread:2
+I0820 20:20:37.940699 10630 q_recommend.cc:172] Creat thread:3
+I0820 20:20:37.940721 10630 q_recommend.cc:172] Creat thread:4
+I0820 20:20:37.940744 10630 q_recommend.cc:172] Creat thread:5
+I0820 20:20:37.940760 10630 q_recommend.cc:172] Creat thread:6
+I0820 20:20:37.940781 10630 q_recommend.cc:172] Creat thread:7
+I0820 20:20:37.940794 10630 q_recommend.cc:172] Creat thread:8
+I0820 20:20:37.940809 10630 q_recommend.cc:172] Creat thread:9
+I0820 20:20:37.940876 10630 q_recommend.cc:172] Creat thread:10
+I0820 20:20:37.940894 10630 q_recommend.cc:172] Creat thread:11
+I0820 20:20:37.940907 10630 q_recommend.cc:172] Creat thread:12
+I0820 20:20:37.940920 10630 q_recommend.cc:172] Creat thread:13
+I0820 20:20:37.940945 10630 q_recommend.cc:172] Creat thread:14
+I0820 20:20:37.940960 10630 q_recommend.cc:172] Creat thread:15
+I0820 20:20:37.940973 10630 q_recommend.cc:172] Creat thread:16
+I0820 20:20:37.940986 10630 q_recommend.cc:172] Creat thread:17
+I0820 20:20:37.941041 10630 q_recommend.cc:172] Creat thread:18
+I0820 20:20:37.941054 10630 q_recommend.cc:172] Creat thread:19
+I0820 20:20:37.941066 10630 q_recommend.cc:172] Creat thread:20
+I0820 20:20:37.941081 10630 q_recommend.cc:172] Creat thread:21
+I0820 20:21:14.569855 10775 q_recommend.cc:121] Request URI:/
+I0820 20:21:15.816741 10775 recommendEngine.cpp:307] GetCandicate time cost:292128us	Find NoResult time cost:100844	Find Related time cost:838445
+I0820 20:21:15.900504 10775 q_recommend.cc:151] Request time:291us	total time:1330874us	Query:连衣裙	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "服装服饰", "女装", "连衣裙" ],
+      [ "服装服饰", "女装" ],
+      [ "服装服饰", "其他服饰", "中老年服饰" ],
+      [ "母婴童装", "儿童服饰", "童装" ],
+      [ "服装服饰", "其他服饰" ],
+      [ "母婴童装", "孕产妇", "孕妇装" ],
+      [ "服装服饰", "女装", "半身裙" ],
+      [ "服装服饰", "女装", "蕾丝衫/雪纺衫" ],
+      [ "服装服饰", "其他服饰", "职业装" ],
+      [ "服装服饰", "女装", "T恤" ]
+   ],
+   "recommedndation" : [
+      "棉麻连衣裙",
+      "童装连衣裙",
+      "碎花连衣裙",
+      "连衣裙夏季",
+      "女童连衣裙",
+      "欧根纱连衣裙",
+      "牛仔连衣裙",
+      "连衣裙 通勤"
+   ]
+}
+I0820 20:22:52.432899 10775 q_recommend.cc:121] Request URI:/
+I0820 20:22:52.567250 10766 q_recommend.cc:121] Request URI:/
+I0820 20:22:52.731709 10775 recommendEngine.cpp:307] GetCandicate time cost:52406us	Find NoResult time cost:21899	Find Related time cost:222198
+I0820 20:22:52.760514 10775 q_recommend.cc:151] Request time:301us	total time:327832us	Query:手机	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "手机数码", "手机" ],
+      [ "电脑办公", "平板电脑" ],
+      [ "手机数码", "手机数码配件" ],
+      [ "手机数码", "手机数码配件", "手机壳/保护壳" ],
+      [ "运动户外", "户外装备", "户外背包" ],
+      [ "汽车用品", "内饰", "整理收纳" ],
+      [ "手机数码", "手机数码配件", "电池/充电器" ],
+      [ "手机数码", "数码影音", "耳机/耳麦" ],
+      [ "手机数码", "手机数码配件", "贴膜" ],
+      [ "运动户外", "户外装备" ]
+   ],
+   "recommedndation" : [
+      "手机 /苹果",
+      "乐视手机",
+      "手机 vivo",
+      "手机 oppo",
+      "vivo手机",
+      "小米4手机",
+      "步步高vivo手机",
+      "手机包"
+   ]
+}
+I0820 20:22:52.967294 10766 recommendEngine.cpp:307] GetCandicate time cost:113229us	Find NoResult time cost:88944	Find Related time cost:195925
+I0820 20:22:52.999078 10766 q_recommend.cc:151] Request time:110us	total time:431867us	Query:手机	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "手机数码", "手机" ],
+      [ "电脑办公", "平板电脑" ],
+      [ "手机数码", "手机数码配件" ],
+      [ "手机数码", "手机数码配件", "手机壳/保护壳" ],
+      [ "运动户外", "户外装备", "户外背包" ],
+      [ "汽车用品", "内饰", "整理收纳" ],
+      [ "手机数码", "手机数码配件", "电池/充电器" ],
+      [ "手机数码", "数码影音", "耳机/耳麦" ],
+      [ "手机数码", "手机数码配件", "贴膜" ],
+      [ "运动户外", "户外装备" ]
+   ],
+   "recommedndation" : [
+      "手机 /苹果",
+      "乐视手机",
+      "手机 vivo",
+      "手机 oppo",
+      "vivo手机",
+      "小米4手机",
+      "步步高vivo手机",
+      "手机包"
+   ]
+}
+I0820 20:23:52.731320 10766 q_recommend.cc:121] Request URI:/
+I0820 20:23:53.009750 10766 recommendEngine.cpp:307] GetCandicate time cost:63781us	Find NoResult time cost:22169	Find Related time cost:190926
+I0820 20:23:53.032353 10766 q_recommend.cc:151] Request time:340us	total time:301277us	Query:手机	Recommend:{
+   "NoResult_Recommend" : "",
+   "category" : [
+      [ "手机数码", "手机" ],
+      [ "电脑办公", "平板电脑" ],
+      [ "手机数码", "手机数码配件" ],
+      [ "手机数码", "手机数码配件", "手机壳/保护壳" ],
+      [ "运动户外", "户外装备", "户外背包" ],
+      [ "汽车用品", "内饰", "整理收纳" ],
+      [ "手机数码", "手机数码配件", "电池/充电器" ],
+      [ "手机数码", "数码影音", "耳机/耳麦" ],
+      [ "手机数码", "手机数码配件", "贴膜" ],
+      [ "运动户外", "户外装备" ]
+   ],
+   "recommedndation" : [
+      "手机 /苹果",
+      "乐视手机",
+      "手机 vivo",
+      "手机 oppo",
+      "vivo手机",
+      "小米4手机",
+      "步步高vivo手机",
+      "手机包"
+   ]
+}
